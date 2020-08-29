@@ -1,0 +1,56 @@
+    .hero {
+    position: relative; 
+    height: 100vh;
+    width: 100%;   
+    align-items: center;
+    justify-content: center;
+}
+
+.hero::before {    
+      content: "";
+      background-image: url('https://cdn.britannica.com/99/2999-004-EC6AADD1/state-flag-New-Jersey-George-Washington-field-1779.jpg');
+      background-size: cover;
+      position: absolute;
+      top:  45px;
+      right: -30px;
+      bottom: -30px;
+      left: -10px;
+      opacity: 0.75;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+h4 {
+  position: relative;
+  color: white;  
+  font-size: 6rem;
+  line-height: 0.9;
+  text-align: center;
+}

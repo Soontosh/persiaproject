@@ -1,0 +1,56 @@
+.hero {
+    position: relative; 
+    height: 100vh;
+    width: 100%;   
+    align-items: center;
+    justify-content: center;
+}
+
+.hero::before {    
+      content: "";
+      background-image: url('https://cnet4.cbsistatic.com/img/hbXBhbxkNh_dgW68mZpAEMeq068=/940x0/2020/07/31/eed664cc-7080-458b-b418-d4faa1c6842b/004-cash-money-dollar-bills-colorful-background-stimulus-2020.jpg');
+      background-size: cover;
+      position: absolute;
+      top:  45px;
+      right: -30px;
+      bottom: -200px;
+      left: -10px;
+      opacity: 0.75;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+h4 {
+  position: relative;
+  color: white;  
+  font-size: 3rem;
+  line-height: 0.9;
+  text-align: center;
+};

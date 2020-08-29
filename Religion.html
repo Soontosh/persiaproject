@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="styless.css">
+    <style>
+        p {
+  position: relative;
+  color: white;  
+  font-size: 3rem;
+  line-height: 0.9;
+  text-align: center;
+};
+    </style>
+ 
+</head>
+<body class="hero">
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="Politics.html">Politics</a></li>
+  <li><a href="Religion.html" class="active" >Religion</a></li>
+  <li><a href="Economics.html">Economics</a></li>
+   <li><a href="Social.html">Social</a></li>    
+</ul>
+    <h4>Religion</h4>
+    <p>Though it's a very small state, especially compared to the rest of America, New Jersey has a very diverse span of cultures. With 54% of New Jersey's adults being religous it is the 19th most religous state in America. Most religous adults in New Jersey are Jewists, Hindus, Muslims, Buddhists, and Christians. Christians make make up most of the religious adults with 67% of them being believing in Christianity. New Jersey has a <a href = 
+ "https://www.merriam-webster.com/dictionary/state%20religion"> state religion.</a> New Jersey's state religion is Christianity. There is a pie graph below that contains more information.</p>
+
+
+<div id="piechart"></div>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+    
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['Religion', 'Percentanges of the most practiced religions in New Jersey'],
+  ['Christianity', 67],
+  ['Jewish', 6],
+  ['Muslim', 3],
+  ['Buddhism', 1],
+  ['Hinduism', 3],
+  ['Other Religions', 2],
+  ['Unaffiliated (atheism; nothing or do not know)', 18]
+]);
+
+  var options = {'title':'Percentanges of the most practiced religions in New Jersey', 'width':600, 'height': 600};
+
+  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+  chart.draw(data, options);
+}
+</script>    
+</body>   
+</html>
