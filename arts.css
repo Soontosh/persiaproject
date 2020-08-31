@@ -8,12 +8,12 @@
 
 .hero::before {    
       content: "";
-      background-image: url('https://cnet4.cbsistatic.com/img/hbXBhbxkNh_dgW68mZpAEMeq068=/940x0/2020/07/31/eed664cc-7080-458b-b418-d4faa1c6842b/004-cash-money-dollar-bills-colorful-background-stimulus-2020.jpg');
+      background-image: url('https://i.pinimg.com/564x/4d/9f/19/4d9f1929a26d6dd76fd1c30de7074166.jpg');
       background-size: cover;
       position: absolute;
       top:  45px;
       right: -30px;
-      bottom: -65px;
+      bottom: -200px;
       left: -10px;
       opacity: 0.75;
 }
