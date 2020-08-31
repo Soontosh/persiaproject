@@ -1,4 +1,4 @@
- .hero {
+ /***.hero {
     position: relative; 
     height: 100vh;
     width: 100%;   
@@ -16,6 +16,10 @@
       bottom: 260px;
       left: -10px;
       opacity: 0.75;
+}***/
+
+body{
+    background-image: url('https://politicalreportingplus.com/wp-content/uploads/2015/07/Dk-background1.jpg');
 }
 
 ul {
@@ -49,18 +53,17 @@ li a:hover:not(.active) {
 
 h4 {
   position: relative;
-  color: white;  
+  color: white;
+ font-style: oblique;
   font-size: 3rem;
   line-height: 0.9;
   text-align: center;
 };
 
 
-<img
-width: 50%;
-height: 375px;     
-src="https://newjerseyglobe.com/wp-content/uploads/2018/06/KBS_8179.jpg">  
-<img
- width="710px"
- height="375px"     
- src="https://d2v9ipibika81v.cloudfront.net/uploads/sites/72/431539-PE9O1K-661-1140x684.jpg">
+.pic{
+    width: 50%;
+    opacity: 1;
+    border: solid white 4px;
+
+}
