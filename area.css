@@ -1,9 +1,6 @@
-
 body{
-          background-image: url('https://i.pinimg.com/564x/4d/9f/19/4d9f1929a26d6dd76fd1c30de7074166.jpg');
-
+    background-image: url('https://www.cnyhiking.com/ATinNJ-OilCityFieldView4.JPG');
 }
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -35,14 +32,20 @@ li a:hover:not(.active) {
 
 h4 {
   position: relative;
-  color: white;  
+  color: black;  
+  font-style: oblique;
   font-size: 3rem;
   line-height: 0.9;
   text-align: center;
 };
 
+.pup {
+width: 50%;
+height: 375px;     
+}
+
 .pic{
-    width: 35%;
+    width: 40%;
     opacity: 1;
     border: solid white 4px;
 

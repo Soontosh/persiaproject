@@ -1,21 +1,11 @@
-    .hero {
-    position: relative; 
-    height: 100vh;
-    width: 100%;   
-    align-items: center;
-    justify-content: center;
+
+.bkgd{
+    background-color: black;
+    color:black;
 }
 
-.hero::before {    
-      content: "";
-      background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/k-182-ae-06550wf.jpg?bg=transparent&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&q=80&usm=15&vib=3&w=1300&s=e518a07c1544ac4f862374b2e06873df');
-      background-size: cover;
-      position: absolute;
-      top:  45px;
-      right: -30px;
-      bottom: -500px;
-      left: -10px;
-      opacity: 0.75;
+body{
+    background-image: url('https://northernvirginiamag.com/wp-content/uploads/2020/06/cartoon-of-diversity.jpg');
 }
 
 ul {
@@ -46,11 +36,21 @@ li a:hover:not(.active) {
   background-color: #4CAF50;
 }
 
-
 h4 {
   position: relative;
-  color: white;  
+  color: blue;  
   font-size: 6rem;
   line-height: 0.9;
   text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+   
+}
+
+
+.pic{
+    width: 35%;
+    opacity: 1;
+    border: solid white 4px;
+
 }
